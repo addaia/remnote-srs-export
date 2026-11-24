@@ -1,0 +1,23 @@
+{
+  "manifestVersion": 1,
+  "id": "srs_data_export",
+  "name": "SRS Data Export",
+  "author": "you",
+  "repoUrl": "https://github.com/your-username/remnote-srs-export",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "theme": [],
+  "enableOnMobile": false,
+  "unlisted": true,
+  "description": "Exports every flashcard with its full review history (answers, response times, due dates) to CSV files. Read-only: it never changes your notes or cards.",
+  "requestNative": false,
+  "requiredScopes": [
+    {
+      "type": "All",
+      "level": "Read"
+    }
+  ]
+}
